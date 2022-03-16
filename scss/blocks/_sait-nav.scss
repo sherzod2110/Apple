@@ -1,0 +1,79 @@
+.sait-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sait-nav__item {
+  width: 444px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.sait-nav__header-link {
+  text-decoration: none;
+  color: rgb(94, 93, 93);
+  font-family: 'Paytone One';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  transition: all 0.2s ease;
+}
+
+
+.sait-nav__header-link:hover {
+  color: rgb(0, 0, 0);
+  border-bottom: 3px solid #000;
+  padding-bottom: 5px;
+}
+
+.sait-nav__header-link:active {
+  color: rgb(0, 0, 0);
+  border-bottom: 3px solid rgb(209, 27, 27);
+}
+
+
+.sait-nav__header-input {
+  width: 165px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(32, 32, 32);
+}
+
+.sait-nav__btn {
+  border: none;
+  background-color: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  display: none;
+}
+
+.sait-nav__img {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+@include breakpoint-down(521px) {
+
+  .sait-nav__item {
+    // max-width: 400px;
+    // flex-direction: column;
+  }
+
+  .sait-nav {
+    width: 200px;
+  }
+
+  .sait-nav__header-input {
+    display: none;
+  }
+}
