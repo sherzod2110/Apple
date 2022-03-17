@@ -2,8 +2,7 @@
   font-family: 'Paytone One';
   font-style: normal;
   font-weight: 400;
-  src: local(''),
-       url('../fonts/paytone-one-v16-latin-regular.woff2') format('woff2'), 
+  src: url('../fonts/paytone-one-v16-latin-regular.woff2') format('woff2'), 
        url('../fonts/paytone-one-v16-latin-regular.woff') format('woff'); 
 }
 
@@ -11,12 +10,12 @@
   font-family: 'Segoe UI Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Segoe UI Regular'), url('/fonts/Segoe\ UI.woff') format('woff');
+  src: ('Segoe UI Regular'), url('/fonts/Segoe\ UI.woff') format('woff');
   }
   
   @font-face {
   font-family: 'Segoe UI Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('Segoe UI Bold'), url('/fonts/Segoe\ UI\ Bold.woff') format('woff');
+  src: ('Segoe UI Bold'), url('/fonts/Segoe\ UI\ Bold.woff') format('woff');
   }
